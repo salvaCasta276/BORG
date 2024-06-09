@@ -1,0 +1,6 @@
+__pycache__
+*-finetuned-cola
+Models/*
+Datasets/*
+Results/*
+

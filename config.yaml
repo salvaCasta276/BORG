@@ -1,0 +1,14 @@
+data_partition:
+  block_step: 25
+  tot_blocks: 1
+  init_val: 25
+
+model:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+  learning_rate: 0.001
+  batch_size: 32
+  epoch_num: 11
+  model_checkpoint: "dccuchile/bert-base-spanish-wwm-uncased"
+  metric_name: "matthews_correlation"
